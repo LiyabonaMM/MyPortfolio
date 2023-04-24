@@ -1,0 +1,176 @@
+h1 {
+    color: #000;
+  }
+  
+p {
+    color:#000
+}
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global Styles */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav li {
+    margin: 0 1rem;
+  }
+  
+  nav a {
+    color: #fff;
+  }
+  
+  /* Landing Section Styles */
+  #landing-section {
+    background-image: url(images/landing-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 5rem 0;
+  }
+  
+  #landing-section h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  #landing-section p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  #landing-section button {
+    background-color: #fff;
+    color: #333;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 3px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  /* About Section Styles */
+  #about-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem;
+  }
+  
+  #about-section h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    width: 100%;
+  }
+  
+  #about-section img {
+    width: 50%;
+    border-radius: 50%;
+    margin: 2rem;
+  }
+  
+  #about-section p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    width: 50%;
+  }
+  
+  /* Work/Education Section Styles */
+  #work-section {
+    padding: 5rem;
+  }
+  
+  #work-section h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .work-experience {
+    margin-bottom: 2rem;
+  }
+  
+  .work-experience h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .work-experience p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .work-experience ul {
+    margin-left: 1rem;
+  }
+  
+  .education h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .education p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Skills Section Styles */
+  #skills-section {
+    padding: 5rem;
+  }
+  
+  #skills-section h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    width: 100%;
+  }
+  
+  #skills-section ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  #skills-section li {
+    background-color: #fff;
+    color: #333;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 3px;
+  }
+  
